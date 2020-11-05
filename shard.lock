@@ -1,0 +1,14 @@
+version: 2.0
+shards:
+  alea:
+    git: https://github.com/nin93/alea.git
+    version: 0.3.0+git.commit.76a19c1e815a3ab3ca1d1fc3e3c31ade34057b55
+
+  num:
+    git: https://github.com/crystal-data/num.cr.git
+    version: 0.4.3
+
+  opencl:
+    git: https://github.com/crystal-data/opencl.cr.git
+    version: 0.2.1+git.commit.aaa47f52c6ee33a7dc7b7f05189faf7646d9758d
+

@@ -1,0 +1,17 @@
+name: firstapp
+version: 0.1.0
+
+authors:
+  - andrew <your-email-here>
+
+dependencies:
+  num:
+    github: crystal-data/num.cr
+
+targets:
+  firstapp:
+    main: src/firstapp.cr
+
+crystal: 0.35.1
+
+license: MIT
