@@ -1,6 +1,6 @@
 # firstapp
 
-TODO: Write a description here
+First application made with the Crystal programming language. Uses the **num.cr** core shard for scientific computing.
 
 ## Installation
 
