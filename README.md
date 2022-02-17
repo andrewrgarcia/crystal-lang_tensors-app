@@ -1,7 +1,8 @@
 # crystal-firstapp
 
-This is the first app I've made with the Crystal programming language (<https://crystal-lang.org/>). Crystal is advertised as closest to Ruby in syntax, with C language speeds.
-This specific app uses the [num.cr](https://crystal-data.github.io/num.cr/) core shard to make arrays. 
+This is the first app I've made with the Crystal programming language (<https://crystal-lang.org/>)
+using the Crystal compiler (<https://crystal-lang.org/reference/1.3/using_the_compiler/index.html>)
+This specific app also uses the [num.cr](https://crystal-data.github.io/num.cr/) core shard to make arrays. 
 
 Also explained in [Dev.to](https://dev.to/andrewrgarcia/a-very-simple-tutorial-of-the-crystal-programming-language-22ma)
 
@@ -21,11 +22,11 @@ Edit src/ files
 
 `cd crystal-firstapp`
 
-`crystal build src/crystal-firstapp.cr` Fast compilation (not very optimized)
+`crystal build src/crystal-firstapp.cr -o out` Fast compilation (not very optimized)
 
 *OR*
 
-`crystal build src/crystal-firstapp.cr --release`   Compile in release mode, doing extra work to apply optimizations to the generated code.
+`crystal build src/crystal-firstapp.cr -o out --release`   Compile in release mode, doing extra work to apply optimizations to the generated code.
 
 ### Deployment
 
