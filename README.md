@@ -30,7 +30,7 @@ Edit src/ files
 
 ### Deployment
 
-`./crystal-firstapp`
+`./out`
 
 ## Contributing
 
