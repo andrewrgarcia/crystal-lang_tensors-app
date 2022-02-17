@@ -1,6 +1,6 @@
 require "./spec_helper"
 
-describe Firstapp do
+describe Crystal::Firstapp do
   # TODO: Write tests
 
   it "works" do

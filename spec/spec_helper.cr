@@ -1,2 +1,2 @@
 require "spec"
-require "../src/firstapp"
+require "../src/crystal-firstapp"
